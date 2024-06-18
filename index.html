@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <!-- Banner with Save Button -->
+    <div class="banner">
+        <h1 contenteditable="true">Notes</h1>
+        <button class="save-button" onclick="saveTextAsFile()">Save</button>
+    </div>
+    
+    <div class="content">
+        <div id="editable-content" contenteditable="true">
+            
+        </div>
+    </div>
+    <script src="scripts/save.js"></script>
+</body>
+</html>
